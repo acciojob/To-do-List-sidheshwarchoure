@@ -10,22 +10,9 @@
     <!-- add your code here -->
 	<input id="newTodoInput"/>
 	<button id="addTodoBtn">Add todo</button>
-	<ol id="todoList">
-		
-	</ol>
+	<ol id="todoList"></ol>
 	<script type="text/javascript" src="./script.js">
-let	button = document.getElementById("addTodoBtn");
-let ol = document.getElementById("todoList");
-let input = document.getElementById("newTodoInput");
 
-button.addEventListener("click",()->{
-
-  let li = document.createElement("li");
-  li.textcontent = input.value;
-  ol.appendChild(li);
-
-  input.value = "";
-});
 
 		
 	</script>
