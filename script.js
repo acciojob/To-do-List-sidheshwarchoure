@@ -6,7 +6,7 @@ function addTodo() {
 	if(todoValue.value)
 	{
       var li = document.createElement('li');
-      li.textcontent = todoValue.value;
+      li.textContent = todoValue.value;
       ol.appendChild(li);
       todoValue.value = "";
 	}
